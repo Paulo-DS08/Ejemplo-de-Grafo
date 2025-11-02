@@ -19,9 +19,9 @@ public class AplicaionGrafo {
             System.out.println("5. Ejecutar DFS");
             System.out.println("6. Ejecutar Dijkstra");
             System.out.println("0. Salir");
-            System.out.print("Opción: ");
+            System.out.print("Opcion: ");
             int op = sc.nextInt();
-            sc.nextLine(); // limpiar buffer
+            sc.nextLine();
 
             switch (op) {
                 case 1 -> {
@@ -63,7 +63,7 @@ public class AplicaionGrafo {
                     sc.close();
                     return;
                 }
-                default -> System.out.println("Opción inválida");
+                default -> System.out.println("Opcion invalida");
             }
         }
     }

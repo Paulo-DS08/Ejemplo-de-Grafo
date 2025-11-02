@@ -76,7 +76,7 @@ public class Algoritmos {
         }
         Collections.reverse(camino);
 
-        System.out.println("Distancia mínima: " + dist.get(fin));
+        System.out.println("Distancia minima: " + dist.get(fin));
         System.out.println("Camino: " + String.join(" -> ", camino));
     }
 }
