@@ -1,4 +1,3 @@
-
 package com.mycompany.aplicaiongrafo;
 
 public class Arista {
